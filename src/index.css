@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","Open Sans", "Open Sans-Bold", "Open Sans-Light", "Open Sans-Semibold",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,91 @@
+div.comments {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  width: 444px;
+  height: 560px;
+  margin: 20px 0px 0px 10px;
+  padding: 10px 10px 10px 25px;
+  border: 1px solid #B3B3B3;
+  box-shadow: 1px 1px 3px #B3B3B3;
+  overflow-y: auto;
+}
+
+div.comments h2 {
+  font-weight: normal;
+  font-size: 30px;
+  color: #565A69;
+}
+
+div.comments-list div.comment div.avatar {
+  min-width: 52px;
+  height: 52px;
+  margin-top: 3px;
+}
+
+div.comments div.comment-add div.avatar-choose {
+  min-width: 52px;
+  height: 52px;
+  background-color: #E6E6E6;
+  margin-right: 10px;
+}
+
+div.comments div.comment-add {
+  display: flex;
+  justify-content: flex-start;
+  align-items: initial;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+div.comment-add textarea {
+  width: 385px;
+  height: 78px;
+  box-sizing: border-box;
+  padding: 5px;
+  resize: none;
+  outline: none;
+}
+
+div.comments-list  div.comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: initial;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+div.comments-list div.comment:nth-child(even) div.avatar {
+  background-color: #47568C;
+}
+
+div.comments-list div.comment:nth-child(odd) div.avatar {
+  background-color: #FF8A00;
+}
+
+div.comments-list div.comment:nth-child(1) {
+  padding-top: 30px !important;
+}
+
+div.comments-list {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+div.comments-list div.comment p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 10px;
+  line-height: 18px;
+  text-align: left;
+  color: #424040;
+  word-spacing: 1px;
+  word-wrap: break-word;
+}
+
+
+div.comments-list div.comment:nth-last-child(1) {
+  border-bottom: none !important;
+}

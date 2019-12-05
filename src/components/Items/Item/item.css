@@ -1,0 +1,55 @@
+.item {
+  border-bottom: 1px solid rgb(211, 202, 202);
+  display: flex;
+  min-height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item button {
+  padding: 6px;
+  border-radius: 3px;
+  width: 80px;
+  border: 1px solid #FF305A;
+  background-color: #fff;
+  color: #FF305A;
+}
+
+.item button:hover {
+  cursor: pointer;
+  background-color: #FF305A;
+  color: #fff;
+}
+
+.item__left > span {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  max-width: 220px;
+  word-break: break-all;
+  color: #2B2F3E;
+}
+
+.item div.amount {
+  display: flex; 
+  min-width: 15px;
+  background-color: #27CCC0;
+  border-radius: 14px;
+  padding: 1px 6px 1px 5.5px; 
+  margin-left: 8px;
+}
+
+.item div.amount span {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+.item__left {
+  display: flex;  
+}
