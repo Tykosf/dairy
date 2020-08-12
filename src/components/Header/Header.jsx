@@ -1,10 +1,20 @@
 import React from 'react';
-import './header.css';
+import { Link } from 'react-router-dom'
+
+import './header.scss';
 
 const Header = (props) => (
 	<header>
-		<h1>dairy app</h1>
+		<Link to='/'>
+			<h1>diary app</h1>
+		</Link>
 		<p>Comment with no sense</p>
+		<div className='user-settings'>
+			<div className='menu-item'>
+				<i className="fas fa-cog"></i>
+				<Link to='/settings'>Settings</Link>
+			</div>
+		</div>
 	</header>
 )
 

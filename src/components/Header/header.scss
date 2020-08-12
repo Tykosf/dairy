@@ -1,0 +1,44 @@
+header {
+  min-width: 250px;
+  max-width: 300px;
+  padding: 5px 20px 0 20px;
+  height: 100%;
+  background-color: rgb(43, 48, 62);
+  
+  p {
+    color: gray;
+  }
+
+  .user-settings {
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      i {
+        color: #27CCC0;
+        font-size: 13px;
+      }
+      a {
+        margin-left: 5px;
+        color: #fff;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: none;
+  }
+}

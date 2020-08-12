@@ -1,0 +1,31 @@
+.btn {
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #27CCC0;
+  cursor: pointer;
+  min-height: 27px;
+  min-width: 80px;
+}
+
+.btn-danger {
+  padding: 6px;
+  border-radius: 3px;
+  font-weight: 400;
+  border: 1px solid #FF305A;
+  background-color: #fff;
+  color: #FF305A;
+  &:hover {
+    cursor: pointer;
+    background-color: #FF305A;
+    color: #fff;
+  }
+}
+
+.btn-cancel {
+  border: 1px solid #27CCC0;
+  background-color: unset;
+  color: #27CCC0;
+}
